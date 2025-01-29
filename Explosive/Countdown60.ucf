@@ -1,0 +1,60 @@
+
+NET "Clk" LOC = P123;
+NET "Top_buzzer" LOC = P83;
+
+NET "Switch[7]" LOC = P55;
+NET "Switch[6]" LOC = P56;
+NET "Switch[5]" LOC = P57;
+NET "Switch[4]" LOC = P58;
+NET "Switch[3]" LOC = P59;
+NET "Switch[2]" LOC = P61;
+NET "Switch[1]" LOC = P62;
+NET "Switch[0]" LOC = P66;
+
+
+NET "ans[7]" LOC = P114;
+NET "ans[6]" LOC = P115;
+NET "ans[5]" LOC = P116;
+NET "ans[4]" LOC = P117;
+NET "ans[3]" LOC = P118;
+NET "ans[2]" LOC = P119;
+NET "ans[1]" LOC = P120;
+NET "ans[0]" LOC = P121;
+
+NET "LED[7]" LOC = P67;
+NET "LED[6]" LOC = P74;
+NET "LED[5]" LOC = P75;
+NET "LED[4]" LOC = P78;
+NET "LED[3]" LOC = P79;
+NET "LED[2]" LOC = P80;
+NET "LED[1]" LOC = P81;
+NET "LED[0]" LOC = P82;
+
+NET "Segment[6]" LOC = P41;
+NET "Segment[5]" LOC = P40;
+NET "Segment[4]" LOC = P35;
+NET "Segment[3]" LOC = P34;
+NET "Segment[2]" LOC = P32;
+NET "Segment[1]" LOC = P29;
+NET "Segment[0]" LOC = P27;
+
+NET "Common[3]" LOC = P30;
+NET "Common[2]" LOC = P33;
+NET "Common[1]" LOC = P43;
+NET "Common[0]" LOC = P44;
+
+NET "self_break" LOC = P99;
+NET "others_break" LOC = P100;
+NET "others_confirmed" LOC = P101;
+NET "self_confirmed_signal" LOC = P102;
+NET "self_ans_signal" LOC = P104;
+NET "reset_signal" LOC = P105;
+
+NET "reset" LOC = P51;
+NET "self_confirmed_button" LOC = P47;
+NET "self_ans_button" LOC = P46;
+
+NET "reset" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "self_confirmed_button" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "self_ans_button" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "others_break" CLOCK_DEDICATED_ROUTE = FALSE;

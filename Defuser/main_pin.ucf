@@ -1,0 +1,64 @@
+
+NET "ready_button" LOC = P47;
+NET "confirmed_button" LOC = P45;
+
+NET "others_break" LOC = P121;
+NET "self_break" LOC = P120;
+NET "self_ready_signal" LOC = P119;
+NET "others_ready" LOC = P118;
+NET "ans_signal_in" LOC = P117;
+NET "reset_signal" LOC = P116;
+NET "clk_20mhz" LOC = P123;
+
+
+
+NET "buzz" LOC = P83; 
+
+NET "hsync" LOC = P5;
+NET "vsync" LOC = P7;
+
+NET "red" LOC = P14;
+NET "green" LOC = P11;
+NET "blue" LOC = P9;
+
+NET "CHECKING[7]" LOC = P84;
+NET "CHECKING[6]" LOC = P85;
+NET "CHECKING[5]" LOC = P87;
+NET "CHECKING[4]" LOC = P88;
+NET "CHECKING[3]" LOC = P92;
+NET "CHECKING[2]" LOC = P93;
+NET "CHECKING[1]" LOC = P94;
+NET "CHECKING[0]" LOC = P95;
+
+NET "Segment[6]" LOC = P41;
+NET "Segment[5]" LOC = P40;
+NET "Segment[4]" LOC = P35;
+NET "Segment[3]" LOC = P34;
+NET "Segment[2]" LOC = P32;
+NET "Segment[1]" LOC = P29;
+NET "Segment[0]" LOC = P27;
+
+NET "Common[3]" LOC = P30;
+NET "Common[2]" LOC = P33;
+NET "Common[1]" LOC = P43;
+NET "Common[0]" LOC = P44;
+
+NET "required_led[7]" LOC = P67;
+NET "required_led[6]" LOC = P74;
+NET "required_led[5]" LOC = P75;
+NET "required_led[4]" LOC = P78;
+NET "required_led[3]" LOC = P79;
+NET "required_led[2]" LOC = P80;
+NET "required_led[1]" LOC = P81;
+NET "required_led[0]" LOC = P82;
+
+NET "INPUT[7]" LOC = P112;
+NET "INPUT[6]" LOC = P111;
+NET "INPUT[5]" LOC = P105;
+NET "INPUT[4]" LOC = P104;
+NET "INPUT[3]" LOC = P102;
+NET "INPUT[2]" LOC = P101;
+NET "INPUT[1]" LOC = P100;
+NET "INPUT[0]" LOC = P99;
+
+NET "confirmed_button" CLOCK_DEDICATED_ROUTE = FALSE;
